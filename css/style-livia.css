@@ -1,0 +1,155 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+align-items: center;
+}
+body{
+background-color: #454546;
+}
+nav.topo{
+    margin: 80px;
+    background-color: #666666;
+    height: 70px; 
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #f0d435;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px #666666;
+}
+
+a.butaum{
+color: #f0d435;
+font-size: x-large;
+margin: 15px;
+}
+header{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+
+}
+.container{
+    margin:0px auto ;
+    width: 80%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 10px 0px#777;
+}
+#banner{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+h1{
+    font-size: 55px;
+    color: #ffc800;
+    position: absolute;
+    top: 200px;
+}
+.photowraper{
+    position: absolute;
+    animation: round 20s infinite;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  
+}
+.photo{
+      height: 650px;
+    width: 100%;
+}
+
+@keyframes round{
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+}
+.photowraper:nth-child(1){
+    animation-delay: 0s;
+}
+.photowraper:nth-child(2){
+    animation-delay: 5s;
+}
+.photowraper:nth-child(3){
+    animation-delay: 10s;
+}
+.photowraper:nth-child(4){
+    animation-delay: 15s;
+}
+
+
+#divnov{
+    margin: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+}
+img{
+
+    width: 30%;
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    border:2px solid #b9b957;
+    color: #ffff;
+}
+legend{
+    font-size: 22px;
+    color: #ffff;
+    margin: 5px;
+}
+button{
+    background-color: #b9b957;
+    width: 30%;
+    border-radius: 5px;
+    transition: transform 5s;
+    transform: translateX(2) scale(0.2);
+}
+button:hover,button:focus {
+    background: #b9b957;
+    transform: translateX(10px) scale(1.2);
+    
+}
+#divnov2{
+    margin: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#divnov3{
+    margin: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
